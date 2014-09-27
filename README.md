@@ -7,4 +7,4 @@ The task that was assigned to me in this web page was to create a jQuery plugin 
 
 ###Credits
 
-Are Lorenz Bergonia - Front-End Developer
+[Are Lorenz Bergonia](https://github.com/arelberg) - Front-End Developer
