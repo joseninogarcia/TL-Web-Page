@@ -8,3 +8,4 @@ The task that was assigned to me in this web page was to create a jQuery plugin 
 ###Credits
 
 [Are Lorenz Bergonia](https://github.com/arelberg) - Front-End Developer
+[Jose Nino Garcia](https://github.com/joseninogarcia) - HoveringModePlugin developer
