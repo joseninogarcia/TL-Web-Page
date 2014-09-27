@@ -1,0 +1,616 @@
+/* 
+	Name: Tianlong Website
+	Date Created: 9/20/2014
+	Website: Tianlong Website
+	Author: Are Lorenz Bergonia
+*/
+
+*
+{
+	outline:none;
+	padding:0;
+	margin:0;	
+}
+
+html
+{
+	background:url(../images/mainBg.png) repeat;
+	font-family: linkFont, Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#ffffff;
+}
+
+.clear
+{
+	clear:both;	
+}
+
+a
+{
+	color:#ffffff;
+	text-decoration:none;	
+}
+
+img
+{
+	border:none;	
+}
+
+ul {
+	list-style-type:none;
+}
+/* =================== FONTS ========================= */
+
+@font-face {
+    font-family: linkFont;
+    src:url(../fonts/FZLanTingHei-EL-GBK%20Regular.ttf);
+}
+
+/* =================== HEADER ========================= */
+
+.siteHeader {
+	width:100%;
+	background:url(../images/headerBg.png) top repeat-x;
+	height:285px;
+}
+.siteHeaderWrapper {
+	width:1000px;
+	margin:0 auto;
+	height:auto;
+	position:relative; /* add for the scroll */
+}
+.siteLogo {
+	float: left;
+	width: 299px;
+	height: 130px;
+	background:url(../images/mainBg.png) repeat;
+	padding: 9px 20px 0px 30px;
+}
+.headerNavContainer {
+	float:left;
+	width:651px;
+	height:139px;
+}
+.headerNav {
+	width: 100%;
+	height: 54px;
+}
+.headerNav .languangeNav {
+	float:left;
+}
+.headerNav .languangeNav li {
+	float:left;
+	width:54px;
+	height:49px;
+	margin-left:1px;
+	text-align:center;
+	padding-top:5px;
+}
+.headerNav .languangeNav li a{
+	width:44px;
+	height:44px;
+	color:#656565;
+	font-weight:500;
+}
+.headerNav .languangeNav li.ch {
+	background:#2e2e2e;
+}
+.headerNav .languangeNav li.tch {
+	background:#292929;
+}
+.headerNav .languangeNav li.uk {
+	background:#242424;
+}
+
+.headerNav .loginNav {
+	float:right;
+}
+.headerNav .loginNav li {
+	float:left;
+	width:54px;
+	height:49px;
+	margin-left:1px;
+	text-align:center;
+	padding-top:5px;
+}
+.headerNav .loginNav li a{
+	width:44px;
+	height:44px;
+}
+.headerNav .loginNav li.login {
+	background:#8d45ac;
+}
+.headerNav .loginNav li.install {
+	background:#27ae61;
+}
+.headerNav .loginNav li.account {
+	width:108px !important;
+	background:#00be9c;
+}
+.headerNav .loginNav li.home {
+	padding-top:12px !important;
+	height:42px !important;
+	background:#e84c3d;
+}
+.headerNav .loginNav li.favorite {
+	padding-top:12px !important;
+	height:42px !important;
+	background:#ffa10d;
+}
+.headerNav .loginNav li.home a img {
+	margin-bottom:8px;
+}
+.headerNav .loginNav li.favorite a img {
+	margin-bottom:8px;
+}
+.siteNavContainer .siteNav li {
+	float:left;
+	width:110px;
+	height:110px;
+	margin-left:1px;
+	text-align:center;
+	background:#ffa10d;
+}
+.siteNavContainer .siteNav li a{
+	width:44px;
+	height:44px;
+}
+.siteNavContainer .siteNav li a span{
+	font-size:13px;
+	font-weight:bold;
+}
+.siteNavContainer .siteNav li.portal {
+	background:#868686;
+}
+.siteNavContainer .siteNav li.portal:hover {
+	background:#c7c7c7;
+	cursor:pointer;
+}
+.siteNavContainer .siteNav li.sitemap {
+	background:#27ae61;
+}
+.siteNavContainer .siteNav li.sitemap:hover {
+	background:#30d577;
+	cursor:pointer;
+}
+.siteNavContainer .siteNav li.promo {
+	background:#ffa10d;
+}
+.siteNavContainer .siteNav li.promo:hover {
+	background:#ffad33;
+	cursor:pointer;
+}
+.siteNavContainer .siteNav li.event {
+	background:#00be9c;
+}
+.siteNavContainer .siteNav li.event:hover {
+	background:#00d9b2;
+	cursor:pointer;
+}
+.siteNavContainer .siteNav li.clubs {
+	background:#8d45ac;
+}
+.siteNavContainer .siteNav li.clubs:hover {
+	background:#b357da;
+	cursor:pointer;
+}
+.siteNavContainer .siteNav li.faq {
+	background:#f1c50e;
+}
+.siteNavContainer .siteNav li.faq:hover {
+	background:#fcd73e;
+	cursor:pointer;
+}
+.siteNavContainer .siteNav li.news {
+	background:#27ae61;
+}
+.siteNavContainer .siteNav li.news:hover {
+	background:#30d577;
+	cursor:pointer;
+}
+.siteNavContainer .siteNav li.interaction {
+	background:#e84c3d;
+}
+.siteNavContainer .siteNav li.interaction:hover {
+	background:#ff5d4d;
+	cursor:pointer;
+}
+.siteNavContainer .siteNav li.teaching {
+	background:#8d45ac;
+}
+.siteNavContainer .siteNav li.teaching:hover {
+	background:#b357da;
+	cursor:pointer;
+}
+.siteMarquee {
+	width:100%;
+	height:36px;
+	background:#272727;
+}
+.siteMarquee p a {
+	color:#868686;
+	font-size:12px;
+	line-height:35px;
+}
+.siteMarquee marquee {
+	white-space: nowrap;
+}
+
+/* =================== SLIDER ========================= */
+
+.siteSliderContainer {
+	width:100%;
+	height:auto;
+	z-index:-999;
+}
+.siteSliderWrapper {
+	width:1200px;
+	margin:0 auto;
+	height:auto;
+}
+
+#carousel img {
+	display: block;
+	float: left;
+	border: none;
+	position: relative;
+}
+.paging {
+	margin:0 auto;
+	width:126px;
+	height:28px;
+	padding-top:6px;
+}
+.paging a{
+	background:url(../images/sliderButton.png) no-repeat;
+	display:block;
+	width:18px;
+	height:18px;
+	font-size:2px;
+	margin-right:3px;
+}
+.paging span{
+	color:#27ae61;
+	font-size:2px;	
+}
+.paging a:hover{
+	background:url(../images/sliderButton.png) 0px -18px no-repeat;	
+}
+.paging a{
+	text-decoration:none;	
+	display:block;
+	float:left;
+}
+.paging a.selected{
+	background:url(../images/sliderButton.png) 0px -18px no-repeat !important;	
+}
+
+
+/* =================== BODY ========================= */
+
+.siteBody {
+	width:100%;
+	height:748px;
+	margin-bottom:10px;
+}
+.siteBodyWrapper {
+	width:1000px;
+	margin: 0 auto;
+	height:auto;
+	position:relative;
+}
+.siteCustomerService {
+	position:absolute;
+	left:-56px;
+	margin-top:11%;
+	width:49px;
+	height:349px;
+	background:#614e01;
+	z-index:999;
+}
+.csSideBar li {
+	float:left;
+	width:49px;
+	height:49px;
+	margin-bottom:1px;
+	text-align:center;
+}
+.csSideBar li.weibo {
+	background:#27ae61;
+}
+.csSideBar li.wechat {
+	background:#ffa10d;
+}
+.csSideBar li.qq {
+	background:#00be9c;
+}
+.csSideBar li.msn {
+	background:#8d45ac;
+}
+.csSideBar li.skype {
+	background:#f1c50e;
+}
+.csSideBar li.email {
+	background:#e84c3d;
+}
+.csSideBar li.contact {
+	background:#27ae61;
+}
+.siteBodyLeft {
+	width:750px;
+	height:auto;
+	float:left;
+}
+.siteBodyRight {
+	width:249px;
+	height:auto;
+	float:left;
+	margin-left:1px;
+}
+.leftTopContainer {
+	width:100%;
+	height:249px;
+	margin-bottom:1px;
+}
+.leftMiddleContainer {
+	width:100%;
+	height:249px;
+	margin-bottom:1px;
+}
+.leftMiddleContainer {
+	width:100%;
+	height:249px;
+	margin-bottom:1px;
+}
+.leftTopContainer .leftBox01 {
+	float:left;
+	width:188px;
+	height:189px;
+	background:#27ae61;
+	padding:30px;
+}
+.leftTopContainer .leftBox02 {
+	float:left;
+	width:441px;
+	height:189px;
+	background:#00be9c;
+	margin-left:1px;
+	padding:30px;
+}
+.leftMiddleContainer .leftBox03 {
+	float:left;
+	width:501px;
+	height:249px;
+	background:url(../images/contentBanner1.png);
+}
+.leftMiddleContainer .leftBox04 {
+	float:left;
+	width:188px;
+	height:189px;
+	background:#e84c3d;
+	padding:30px;
+	margin-left:1px;
+}
+.leftBottomContainer .leftBox05 {
+	float:left;
+	width:190px;
+	height:189px;
+	background:url(../images/contentBanner2.png);
+	padding:30px;
+}
+.leftBottomContainer .leftBox06 {
+	float:left;
+	width:190px;
+	height:189px;
+	background:#8d45ac;
+	padding:30px;
+	margin-left:1px;
+}
+.leftBottomContainer .leftBox07 {
+	float:left;
+	width:188px;
+	height:189px;
+	background:url(../images/contentBanner3.png);
+	padding:30px;
+	margin-left:1px;
+}
+.rightBox1 {
+	width:219px;
+	height:469px;
+	background:#ffa10d;
+	margin-bottom:1px;
+	padding:15px;
+}
+.rightBox2 {
+	width:189px;
+	height:189px;
+	background:#27ae61;
+	padding:30px;
+}
+.siteBodyWrapper h2 {
+	font-size:23px;
+	text-align:left;
+}
+.siteBodyWrapper p {
+	font-size:11px;
+	text-align:left;
+}
+.leftBox01 img {
+	padding-top:30px;
+}
+.leftBox01 h2 {
+	margin-bottom:10px;
+}
+.leftBox02 img {
+	padding-bottom:25px;
+}
+.leftBox02 .leftBox02Content {
+	float:left;
+	width:160px;
+}
+.leftBox02 ul {
+	float:left;
+	width:280px;
+}
+.leftBox02 ul li {
+	margin-bottom:10px;
+	font-size:13px;
+}
+.leftBox04 img,
+.leftBox04 h2,
+.leftBox04 p  {
+	float:right;
+}
+.leftBox04 p  {
+	width:140px;
+}
+.leftBox04 img {
+	margin-bottom:20px;
+}
+.leftBox04 h2 {
+	margin-bottom:15px;
+}
+.leftBox06 .imgContainer {
+	width:100%;
+	height:105px;
+	margin-bottom: 8px;
+}
+.leftBox06 img {
+	float:right;
+}
+.leftBox06 h2 {
+	margin-bottom:10px;
+}
+.rightBox2 h2 {
+	margin-bottom:10px;
+}
+.rightBox2 .imgContainer {
+	width:100%;
+	height:105px;
+	margin-bottom: 8px;
+}
+.rightBox1 .imgContainer {
+	float:left;
+	height:105px;
+}
+.rightBox1 h2 {
+	float:right;
+}
+.rightBox1 h3 {
+	font-size:13px;
+	text-align:center;
+	margin-bottom:10px;
+}
+.rightBox1 .hrStyle {
+	height:2px;
+	background:#FFF;
+	width:219px;
+}
+.rightBox2 img {
+	float:right;
+}
+.rightBox1Table {
+	width:100%;
+	margin-top:10px;
+}
+.rightBox1Table th{
+	background:#ff6c04;
+	text-align:center;
+	padding:3px 0px;
+}
+.rightBox1Table td{
+	text-align:center;
+	padding:3px 0px;
+	font-size:13px;
+}
+
+/* =================== FOOTER ========================= */
+
+.siteFooter {
+	width:100%;
+	height:89px;
+	background:url(../images/footerBg.png);
+}
+.siteFooterWrapper {
+	width:1000px;
+	margin:0 auto;
+	height:auto;
+}
+.siteFooterTop {
+	width:100%;
+	height:44px;
+	margin-bottom:1px;
+}
+.siteFooterBottom {
+	width:100%;
+	height:44px;
+}
+.siteFooterTop h2 {
+	font-size:12px;
+	color:#5a5a5a;
+	float:left;
+	line-height:40px;
+}
+.onlineService {
+	float:right;
+	width:250px;
+	height:39px;	
+	background:#8d45ac;
+	text-align:center;
+	padding-top:5px;
+	cursor:pointer;
+}
+.onlineService span{
+	font-size:20px;
+	vertical-align:top;
+	line-height:35px;
+}
+.footerClient li {
+	float:left;
+	width:auto;
+	height:44px;
+	text-align:center;
+	background:#373737;
+	margin-right:1px;
+}
+.footerClient li img {
+	padding:8px 0px;
+}
+.footerNav {
+	float:left;
+}
+.footerNav li {
+	float:left;
+	width:82px;
+	height:44px;
+	text-align:center;
+	margin-right:1px;
+}
+.footerNav:last-child {
+	margin-right:none;
+}
+.footerNav li a{
+	text-align:center;
+	font-size:13px;
+	line-height:48px;
+}
+.footerNav li.about {
+	background:#f1c50e;
+}
+.footerNav li.partner {
+	background:#8d45ac;
+	width:82px !important;
+}
+.footerNav li.siteNav {
+	background:#27ae61;
+}
+.footerNav li.contactUs {
+	background:#00be9c;
+}
+.footerNav li.privacyPolicy {
+	background:#e84c3d;
+}
+.footerNav li.disclaimer {
+	background:#ffa10d;
+	width:84px !important;
+}
