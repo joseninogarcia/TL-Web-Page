@@ -1,4 +1,10 @@
-TL-Web-Page
+TL Web Page
 ===========
 
-This web page was created by my colleague and my task in this web page is to work with the jQuery plugin that focuses on hovering and slides the nav and the sidebar.
+###Description
+
+The task that was assigned to me in this web page was to create a jQuery plugin that when the user hovers the navigation, it will change the backgroung position. I used jQuery but I know this effect can be done using CSS3 animation. I was in charge in checking the scripts at this point.
+
+###Credits
+
+Are Lorenz Bergonia - Front-End Developer
