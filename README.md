@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 TL Web Page
 ===========
 
@@ -10,3 +11,9 @@ The task that was assigned to me in this web page was to create a jQuery plugin 
 [Are Lorenz Bergonia](https://github.com/arelberg) - Front-End Developer
 
 [Jose Nino Garcia](https://github.com/joseninogarcia) - HoveringModePlugin developer
+=======
+TL-Web-Page
+===========
+
+This web page was created by my colleague and my task in this web page is to work with the jQuery plugin that focuses on hovering and slides the nav and the sidebar.
+>>>>>>> 2505320305801a71f4eaf64e9cb9263a075be957

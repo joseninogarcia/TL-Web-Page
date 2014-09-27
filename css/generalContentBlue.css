@@ -331,7 +331,11 @@ ul {
 	float:left;
 	width:166px;
 	height:166px;
+<<<<<<< HEAD
 	background:url(../images/GG.png) 100% 0;
+=======
+	background:url(../images/GG.png) -166px 0px;
+>>>>>>> 2505320305801a71f4eaf64e9cb9263a075be957
 	margin-right:1px;
 	margin-bottom:1px;
 	cursor:pointer;
